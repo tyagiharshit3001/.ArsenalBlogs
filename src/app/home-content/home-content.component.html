@@ -1,0 +1,30 @@
+<div class="box">
+    <h2>.Arsenal</h2>
+    <p>Blogs</p>
+</div>
+
+<div class="blogs">
+    <Table align="center" class="t1">
+        <ol>
+            <li *ngFor="let b of blogArr">
+                <tr>
+                    <table class="t2">
+                        <tr>
+                            <b style="font-size: 22px; font-family:Lucida Handwriting;">{{b.title}}</b>
+                        </tr>
+                        <tr>
+                            {{b.blog}}
+                        </tr>
+                        <tr id="lcs">
+                            <img width="50" height="50" src="https://img.icons8.com/bubbles/50/like.png" alt="like"/>
+                            <img width="50" height="50" src="https://img.icons8.com/bubbles/50/speech-bubble.png" alt="speech-bubble"/>
+                            <img width="50" height="50" src="https://img.icons8.com/bubbles/50/share.png" alt="share"/>
+
+                        </tr>
+                        <br>
+                    </table>
+                </tr>
+            </li>
+        </ol>
+    </Table>
+</div>

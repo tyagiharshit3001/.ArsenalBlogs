@@ -1,0 +1,39 @@
+<div class="postContent">
+    <form>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Blog Title</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Title of the blog..." #ttle>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Blog Content</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Content of the blog..." #blg></textarea>
+          </div>
+          <input id="post" type="button" class="btn btn-outline-dark" value="Post Content" (click)="addBlogs(ttle.value, blg.value)">
+
+        </form>
+    </div>
+<!---
+        <table>
+            <tr>
+                <td>
+                    Title
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" placeholder="Title of the Blog" name="Title" id="ttle" #title>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Blog Content
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea placeholder="Content of Blog..." #content></textarea>
+                </td>
+            </tr>
+        </table>
+-->
+    
