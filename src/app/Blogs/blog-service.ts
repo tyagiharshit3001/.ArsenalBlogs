@@ -1,4 +1,3 @@
-import { Component } from "@angular/core";
 import { Blogs } from "./Blogs";
 import { blogData } from "./blog-data";
 

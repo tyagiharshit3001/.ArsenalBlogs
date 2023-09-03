@@ -25,23 +25,3 @@
     font-weight: bold;
     font-size: large;
 }
-
-.blogs {
-    background-color: #DAF7A6;
-    font-family: Lucida Calligraphy;
-    padding: 30px;
-    text-align: justify;
-    width:75%;
-    margin: auto;
-}
-
-#lcs{
-    margin:auto;
-    display: flex;
-    padding: 1%;
-
-}
-#lcs img{
-    margin: auto;
-}
-

@@ -1,7 +1,7 @@
-.postContent{
+.login{
 
     width: 50%;
-    height: 75%;
+    height: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 7%;
@@ -18,7 +18,7 @@
     border-radius: 30px;
 }
 
-.postContent #post{
+.login #log{
     border-color: #641E16;
     color: #641E16;
     display: flex;
@@ -27,7 +27,7 @@
 }
 
 
-.postContent #post:hover{
+.login #log:hover{
     color: aliceblue;
     background-color: #641E16 ;
     opacity: 80%;

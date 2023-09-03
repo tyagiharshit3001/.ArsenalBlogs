@@ -1,0 +1,15 @@
+<div class="signup" method="post">
+    <h3 align="center">Sign Up</h3><br>
+    <form>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Username</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="user@example.com" #uname>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput2" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleFormControlInput2" placeholder="Password" #pass>
+          </div>
+          <input id="sign" type="button" class="btn btn-outline-dark" value="Sign Up" (click)="addUser(uname.value, pass.value)" routerLink="/app-login">
+          
+        </form>
+    </div>
